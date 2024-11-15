@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.95,
-          "width": 0.9
+          "drill": 0.3,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -457,7 +457,9 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "VCC": "rgb(0, 255, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -581,11 +583,11 @@
     ],
     [
       "5b175686-7035-4ca2-abe3-d2e3eb506fce",
-      "Sheet_1"
+      "Integrated_Circuits"
     ],
     [
       "bdf9dfe7-ebbc-4e1b-a7b9-19e8a6ddc3c1",
-      "Sheet_2"
+      "Connector"
     ]
   ],
   "text_variables": {}

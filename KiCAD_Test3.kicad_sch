@@ -7,16 +7,6 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 129.54 104.14) (xy 171.45 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00cb0a77-ab00-4325-9318-0812c9d7b832")
-	)
-	(wire
-		(pts
 			(xy 120.65 111.76) (xy 171.45 111.76)
 		)
 		(stroke
@@ -24,26 +14,6 @@
 			(type default)
 		)
 		(uuid "0c3cebaa-6d2b-4a15-b0c3-e43ad62997c8")
-	)
-	(wire
-		(pts
-			(xy 166.37 86.36) (xy 166.37 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ecb8365-3b77-4721-ae7e-a4bcd084e72b")
-	)
-	(wire
-		(pts
-			(xy 135.89 86.36) (xy 166.37 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "195efe2e-3f84-41fa-b166-aea890417e2e")
 	)
 	(wire
 		(pts
@@ -57,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 160.02 83.82)
+			(xy 120.65 83.82) (xy 171.45 83.82)
 		)
 		(stroke
 			(width 0)
@@ -77,16 +47,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 78.74) (xy 144.78 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24cbf73f-27f8-413c-80ed-b7df9ad1cb99")
-	)
-	(wire
-		(pts
 			(xy 120.65 109.22) (xy 171.45 109.22)
 		)
 		(stroke
@@ -97,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 78.74) (xy 144.78 78.74)
+			(xy 120.65 78.74) (xy 171.45 78.74)
 		)
 		(stroke
 			(width 0)
@@ -107,33 +67,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 135.89 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45ae8ce8-2410-4d5b-be75-aec4ac109573")
-	)
-	(wire
-		(pts
-			(xy 120.65 66.04) (xy 129.54 66.04)
+			(xy 120.65 104.14) (xy 171.45 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "556747b6-68d8-4fe6-8d37-4308cb0ad6a6")
-	)
-	(wire
-		(pts
-			(xy 142.24 73.66) (xy 171.45 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55a5a5d0-fb1f-48cc-bee3-17f3d8bcadb0")
 	)
 	(wire
 		(pts
@@ -144,26 +84,6 @@
 			(type default)
 		)
 		(uuid "57bfcde7-d901-455d-82a4-69b88ed4438b")
-	)
-	(wire
-		(pts
-			(xy 160.02 99.06) (xy 171.45 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59d3a53c-25a8-4e58-96bd-88cad8cd8c64")
-	)
-	(wire
-		(pts
-			(xy 160.02 88.9) (xy 160.02 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79107a96-f6f3-4f01-b32f-aa557c4b9204")
 	)
 	(wire
 		(pts
@@ -197,16 +117,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 63.5) (xy 160.02 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c382f6d-a22e-4a67-a115-6185160bff10")
-	)
-	(wire
-		(pts
 			(xy 120.65 101.6) (xy 171.45 101.6)
 		)
 		(stroke
@@ -227,23 +137,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 88.9) (xy 160.02 88.9)
+			(xy 120.65 88.9) (xy 171.45 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9f9ae9df-6315-480f-951e-e2763fc90501")
-	)
-	(wire
-		(pts
-			(xy 129.54 66.04) (xy 129.54 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a830caf7-a49b-4243-8a27-9fc5ec71e5cc")
 	)
 	(wire
 		(pts
@@ -257,16 +157,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 63.5) (xy 171.45 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3676658-aef2-45f1-9224-e5b707cfb5c2")
-	)
-	(wire
-		(pts
 			(xy 120.65 50.8) (xy 171.45 50.8)
 		)
 		(stroke
@@ -277,33 +167,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 142.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c67f218f-13e0-40ae-a6f2-09036315839d")
-	)
-	(wire
-		(pts
-			(xy 120.65 76.2) (xy 142.24 76.2)
+			(xy 120.65 76.2) (xy 171.45 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cbea9132-40be-488c-9584-821cea5a6486")
-	)
-	(wire
-		(pts
-			(xy 144.78 76.2) (xy 171.45 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d110b592-97be-42cf-9dbb-230eacc135a4")
 	)
 	(wire
 		(pts
@@ -327,23 +197,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 99.06) (xy 135.89 99.06)
+			(xy 120.65 99.06) (xy 171.45 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec7afc14-4de4-4f38-adc6-6cc43c0ae7bd")
-	)
-	(wire
-		(pts
-			(xy 166.37 78.74) (xy 171.45 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f78e54bb-a6b0-4e4c-914a-d3459853bcdf")
 	)
 	(wire
 		(pts
@@ -367,7 +227,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5b175686-7035-4ca2-abe3-d2e3eb506fce")
-		(property "Sheetname" "Sheet_1"
+		(property "Sheetname" "Integrated_Circuits"
 			(at 27.94 43.7384 0)
 			(effects
 				(font
@@ -376,7 +236,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheet_1.kicad_sch"
+		(property "Sheetfile" "ICs_sheet.kicad_sch"
 			(at 27.94 128.8546 0)
 			(effects
 				(font
@@ -586,7 +446,7 @@
 			(uuid "f0dbb78a-2417-403a-ae90-0cf8a435673f")
 		)
 		(pin "CLK" input
-			(at 120.65 66.04 0)
+			(at 120.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -615,7 +475,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bdf9dfe7-ebbc-4e1b-a7b9-19e8a6ddc3c1")
-		(property "Sheetname" "Sheet_2"
+		(property "Sheetname" "Connector"
 			(at 171.45 43.7384 0)
 			(effects
 				(font
@@ -624,7 +484,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheet_2.kicad_sch"
+		(property "Sheetfile" "Connector.kicad_sch"
 			(at 171.45 128.8546 0)
 			(effects
 				(font
@@ -684,7 +544,7 @@
 			(uuid "94acc4f3-df89-4cdf-af25-e10154bc4bd7")
 		)
 		(pin "nRST" input
-			(at 171.45 63.5 180)
+			(at 171.45 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +574,7 @@
 			(uuid "ddaaf5a4-0266-426a-9713-1b1043d127b1")
 		)
 		(pin "GPIO3" input
-			(at 171.45 73.66 180)
+			(at 171.45 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +584,7 @@
 			(uuid "3ec4951e-c41f-45a5-bf59-0adc350eaf9f")
 		)
 		(pin "TRIG" input
-			(at 171.45 76.2 180)
+			(at 171.45 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +594,7 @@
 			(uuid "654eda95-9ea8-48b7-958d-1cad9a21460f")
 		)
 		(pin "BUF SCK" input
-			(at 171.45 78.74 180)
+			(at 171.45 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,7 +624,7 @@
 			(uuid "a5b06bf6-e148-4208-97c9-4136abcd48d2")
 		)
 		(pin "OE" input
-			(at 171.45 99.06 180)
+			(at 171.45 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)

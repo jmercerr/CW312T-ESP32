@@ -1507,6 +1507,106 @@
 		(color 0 0 0 0)
 		(uuid "d420b9b1-1d05-4fb9-a98b-eb0d1d8f3422")
 	)
+	(no_connect
+		(at 123.19 72.39)
+		(uuid "0053af39-bbeb-4313-91ca-f857c785cd3f")
+	)
+	(no_connect
+		(at 123.19 107.95)
+		(uuid "00901f6f-22b4-486b-9054-297752938bb0")
+	)
+	(no_connect
+		(at 123.19 64.77)
+		(uuid "06886848-7c93-4253-955f-de1be298fc70")
+	)
+	(no_connect
+		(at 123.19 82.55)
+		(uuid "0869ca01-0f98-40cc-b023-25d6c0d80d80")
+	)
+	(no_connect
+		(at 123.19 102.87)
+		(uuid "15d3ff49-12ae-4e9f-98d0-7fddb6521211")
+	)
+	(no_connect
+		(at 123.19 77.47)
+		(uuid "2f42475f-e151-400d-be87-2ec24e947123")
+	)
+	(no_connect
+		(at 123.19 62.23)
+		(uuid "31db5983-1634-4d29-9796-9441bfe117e3")
+	)
+	(no_connect
+		(at 123.19 123.19)
+		(uuid "3c2e8952-8f3b-45aa-a72e-b47610de7a4d")
+	)
+	(no_connect
+		(at 123.19 57.15)
+		(uuid "4727daea-d126-4b2f-9211-f889a3a5f0f5")
+	)
+	(no_connect
+		(at 161.29 67.31)
+		(uuid "4af32caf-a58a-4f78-a1e8-eb5ac240032c")
+	)
+	(no_connect
+		(at 123.19 110.49)
+		(uuid "77ffcf5e-221a-45a8-b4c6-295785273f12")
+	)
+	(no_connect
+		(at 123.19 90.17)
+		(uuid "78b10688-c14b-4391-878e-b0b4fe4c3eeb")
+	)
+	(no_connect
+		(at 123.19 74.93)
+		(uuid "7db1ece0-8874-4d5e-863f-dc695e672dd1")
+	)
+	(no_connect
+		(at 123.19 120.65)
+		(uuid "918618f4-ecab-4a36-a7b8-036ea538b354")
+	)
+	(no_connect
+		(at 123.19 105.41)
+		(uuid "93141ba0-7848-4e34-95ec-a75644048b58")
+	)
+	(no_connect
+		(at 123.19 69.85)
+		(uuid "98243128-8821-486e-8bdc-4fd09ea54514")
+	)
+	(no_connect
+		(at 123.19 100.33)
+		(uuid "9d3e6389-179a-4924-9546-1d47fde6de79")
+	)
+	(no_connect
+		(at 161.29 64.77)
+		(uuid "ad535022-a142-44db-b2f4-21aa4643726f")
+	)
+	(no_connect
+		(at 123.19 128.27)
+		(uuid "c0c1bbea-c108-4ad9-ab4e-c9f5d9f2287b")
+	)
+	(no_connect
+		(at 123.19 87.63)
+		(uuid "c42a1c76-6d83-49f6-b21d-506796a524f3")
+	)
+	(no_connect
+		(at 123.19 95.25)
+		(uuid "cff5b03a-336f-41ed-8fd2-17794974a04c")
+	)
+	(no_connect
+		(at 123.19 92.71)
+		(uuid "d844b68a-1f7c-4357-a3a1-226b2a3cf33c")
+	)
+	(no_connect
+		(at 161.29 62.23)
+		(uuid "e54fc677-002a-4e3a-88ed-64503a1f6cd5")
+	)
+	(no_connect
+		(at 123.19 85.09)
+		(uuid "e8e3e0ca-ae1c-4f57-b3a9-2d9f99e2597a")
+	)
+	(no_connect
+		(at 161.29 118.11)
+		(uuid "e983d3af-38ac-4600-b531-44da36faca1a")
+	)
 	(wire
 		(pts
 			(xy 115.57 118.11) (xy 115.57 142.24)
