@@ -6,6 +6,7 @@
 	(paper "A4")
 	(lib_symbols
 		(symbol "0603_Yageo_Res:RES_100k_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -226,6 +227,7 @@
 			)
 		)
 		(symbol "0603_Yageo_Res:RES_10R_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -446,6 +448,7 @@
 			)
 		)
 		(symbol "0603_Yageo_Res:RES_10k_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -666,6 +669,7 @@
 			)
 		)
 		(symbol "0603_Yageo_Res:RES_20k_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -886,6 +890,7 @@
 			)
 		)
 		(symbol "0603_Yageo_Res:RES_51R_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1106,6 +1111,7 @@
 			)
 		)
 		(symbol "nae_caps:CAP_100n_6.3V_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1290,6 +1296,7 @@
 			)
 		)
 		(symbol "nae_caps:CAP_10n_10V_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1474,6 +1481,7 @@
 			)
 		)
 		(symbol "nae_caps:CAP_2u2_6.3V_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1874,6 +1882,7 @@
 			)
 		)
 		(symbol "tutorial_2_library:CAP_3000p_50V_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3459,11 +3468,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Solder_Jumper_2_NC_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0 2.54)
-					)
+			(symbol "Solder_Jumper_2_NC_1_1"
+				(arc
+					(start 0 1.27)
+					(mid -0.526 0)
+					(end 0 -1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -3472,10 +3481,8 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Solder_Jumper_2_NC_1_1"
 				(pin unspecified line
-					(at 0 5.08 270)
+					(at 0 3.81 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -3493,7 +3500,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -5.08 90)
+					(at 0 -3.81 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -4671,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 116.84) (xy 219.71 116.84)
+			(xy 209.55 116.84) (xy 220.98 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4781,7 +4788,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 93.98) (xy 48.26 93.98)
+			(xy 49.53 93.98) (xy 46.99 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5051,7 +5058,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 116.84) (xy 229.87 116.84)
+			(xy 240.03 116.84) (xy 228.6 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5218,6 +5225,16 @@
 			(type default)
 		)
 		(uuid "694dcc55-f735-49e5-99bc-f73ffce130bd")
+	)
+	(wire
+		(pts
+			(xy 59.69 93.98) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696c46db-f967-4630-9cc1-0ed6b2d6e5dd")
 	)
 	(wire
 		(pts
@@ -5621,16 +5638,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 97.79) (xy 209.55 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e4734d1-a53b-4b1f-865b-72db0c74b138")
-	)
-	(wire
-		(pts
 			(xy 240.03 102.87) (xy 240.03 107.95)
 		)
 		(stroke
@@ -5771,6 +5778,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 96.52) (xy 209.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d05b13-1127-4ce8-b7d2-6f5a983b9b2c")
+	)
+	(wire
+		(pts
 			(xy 231.14 52.07) (xy 240.03 52.07)
 		)
 		(stroke
@@ -5901,6 +5918,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 82.55) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f1e4d3-4f1b-488d-8333-b38a8ef756c4")
+	)
+	(wire
+		(pts
 			(xy 243.84 105.41) (xy 246.38 105.41)
 		)
 		(stroke
@@ -5928,16 +5955,6 @@
 			(type default)
 		)
 		(uuid "cc199a9e-55f4-4678-8132-344afc535ac0")
-	)
-	(wire
-		(pts
-			(xy 209.55 82.55) (xy 209.55 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc205894-706c-4efc-b551-1ee6b01f65ef")
 	)
 	(wire
 		(pts
@@ -7792,7 +7809,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 48.26 93.98 0)
+		(at 46.99 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7800,7 +7817,7 @@
 		(dnp no)
 		(uuid "3d10f414-747c-40bc-8504-656821994659")
 		(property "Reference" "#PWR042"
-			(at 48.26 97.79 0)
+			(at 46.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,7 +7826,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 48.26 90.17 0)
+			(at 46.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 93.98 0)
+			(at 46.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +7843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 93.98 0)
+			(at 46.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +7852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 48.26 93.98 0)
+			(at 46.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +10379,7 @@
 	)
 	(symbol
 		(lib_id "0603_Yageo_Res:RES_10k_0603")
-		(at 55.88 93.98 0)
+		(at 53.34 93.98 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10371,7 +10388,7 @@
 		(dnp no)
 		(uuid "9ee877b8-080d-4f9a-bfca-3432c1c08502")
 		(property "Reference" "R6"
-			(at 57.15 91.948 0)
+			(at 54.61 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10380,7 +10397,7 @@
 			)
 		)
 		(property "Value" "RES_10k_0603"
-			(at 67.31 22.86 0)
+			(at 64.77 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10389,7 +10406,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.88 26.67 0)
+			(at 53.34 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10398,7 +10415,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 86.36 31.75 0)
+			(at 83.82 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10407,7 +10424,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 76.2 34.29 0)
+			(at 73.66 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10416,7 +10433,7 @@
 			)
 		)
 		(property "Display Value" "10k"
-			(at 57.658 96.266 0)
+			(at 55.118 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10425,7 +10442,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 46.99 22.86 0)
+			(at 44.45 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10434,7 +10451,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-0710KL"
-			(at 45.72 29.21 0)
+			(at 43.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,7 +10460,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 40.64 20.32 0)
+			(at 38.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,7 +10469,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "311-10.0KHRCT-ND"
-			(at 68.58 20.32 0)
+			(at 66.04 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10461,7 +10478,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 55.245 90.805 0)
+			(at 52.705 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10470,7 +10487,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 55.245 88.265 0)
+			(at 52.705 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)

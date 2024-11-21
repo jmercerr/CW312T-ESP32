@@ -15,16 +15,14 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "CE"
+			(property "Value" "CE Symbol"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
@@ -65,10 +63,17 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "Pb_Free"
+			(property "Value" "Pb_Free Symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,7 +82,46 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Silkscreen_Symbols:UKCA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UKCA symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:UKCA-Logo_8x8mm_SilkScreen"
 				(at 0 0 0)
 				(effects
 					(font
@@ -115,19 +159,17 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "WEEE"
+			(property "Value" "WEEE SYMBOL"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_8.4x12mm_SilkScreen"
+			(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_5.6x8mm_SilkScreen"
 				(at 0 0 0)
 				(effects
 					(font
@@ -367,99 +409,35 @@
 		(uuid "fdd1c295-a7af-4900-860c-4ad1ad552b67")
 	)
 	(symbol
-		(lib_id "Silkscreen_Symbols:WEEE")
-		(at 27.94 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b6141a8-4049-4963-a010-123642bcaf3a")
-		(property "Reference" "PCB3"
-			(at 26.67 174.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WEEE"
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_8.4x12mm_SilkScreen"
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036"
-					(reference "PCB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Silkscreen_Symbols:CE_Free")
-		(at 27.94 156.21 0)
+		(at -52.07 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "38215f28-63f4-4735-9cc6-7f34574cd435")
-		(property "Reference" "PCB1"
-			(at 25.4 149.86 0)
+		(uuid "06c13185-c527-429c-934c-a2fa41ca072d")
+		(property "Reference" "PCB5"
+			(at -49.53 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "CE"
-			(at 27.94 156.21 0)
+		(property "Value" "CE Symbol"
+			(at -49.53 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
-			(at 27.94 156.21 0)
+			(at -52.07 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -468,7 +446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 156.21 0)
+			(at -52.07 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 156.21 0)
+			(at -52.07 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -488,7 +466,7 @@
 		(instances
 			(project ""
 				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036"
-					(reference "PCB1")
+					(reference "PCB5")
 					(unit 1)
 				)
 			)
@@ -496,34 +474,34 @@
 	)
 	(symbol
 		(lib_id "Silkscreen_Symbols:Pb_Free")
-		(at 21.59 167.64 0)
+		(at -52.07 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5f8bfa25-6f6a-4eb5-bfd7-261a132c3784")
-		(property "Reference" "PCB2"
-			(at 21.59 167.64 0)
+		(uuid "440a0e13-940f-4a77-b88f-379b13c2ec56")
+		(property "Reference" "PCB7"
+			(at -49.53 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "Pb_Free"
-			(at 21.59 167.64 0)
+		(property "Value" "Pb_Free Symbol"
+			(at -49.53 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
-			(at 21.59 167.64 0)
+			(at -52.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -532,7 +510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 167.64 0)
+			(at -52.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,7 +519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 167.64 0)
+			(at -52.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -552,7 +530,135 @@
 		(instances
 			(project ""
 				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036"
-					(reference "PCB2")
+					(reference "PCB7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:UKCA")
+		(at -52.07 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b36f3ebb-15e6-4ca0-ad0c-7ec541900f32")
+		(property "Reference" "PCB4"
+			(at -49.53 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UKCA symbol"
+			(at -49.53 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:UKCA-Logo_8x8mm_SilkScreen"
+			(at -52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036"
+					(reference "PCB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:WEEE")
+		(at -52.07 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7e2796c-d7a0-4889-b03a-34ea94327628")
+		(property "Reference" "PCB6"
+			(at -49.53 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WEEE SYMBOL"
+			(at -49.53 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_5.6x8mm_SilkScreen"
+			(at -52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036"
+					(reference "PCB6")
 					(unit 1)
 				)
 			)
