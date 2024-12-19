@@ -5,223 +5,7 @@
 	(uuid "b162ef4d-d7c1-49fa-b4a2-9aeef8b1aa78")
 	(paper "A4")
 	(lib_symbols
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "tutorial_2_library:CW312T-Template"
+		(symbol "NAE_Connectors:CW312T-Template"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -1434,6 +1218,222 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 115.57 52.07)
@@ -2568,259 +2568,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tutorial_2_library:CW312T-Template")
-		(at 142.24 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "2823b9a7-630c-4bca-b961-48c9c9224bfb")
-		(property "Reference" "P1"
-			(at 127.762 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PCIEx4 EDGE CONNECTOR"
-			(at 139.446 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "tutorial_2_library:CW312_Template"
-			(at 138.43 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BOARD AND EDGE CONNECTOR TEMPLATE FOR CW312 TARGETS"
-			(at 151.13 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A30"
-			(uuid "7fe4e06e-bd1b-4325-98da-5b67909eae9d")
-		)
-		(pin "A24"
-			(uuid "0be0e3de-8bba-44fe-b928-ba75309e2687")
-		)
-		(pin "B19"
-			(uuid "e2035ace-e571-449c-a32a-f03b7fd92484")
-		)
-		(pin "B25"
-			(uuid "1fac2994-cffc-41ad-bf09-a85c77fe11d5")
-		)
-		(pin "B3"
-			(uuid "58f188e5-a211-4b2e-970a-f80f5ad4e77e")
-		)
-		(pin "B18"
-			(uuid "690bd4b9-504d-479b-9a5b-5adfd0cc934c")
-		)
-		(pin "A10"
-			(uuid "8db470bf-ba64-4cc4-8436-8ff3b2d9d39e")
-		)
-		(pin "A14"
-			(uuid "1e2195a6-0023-488d-97b5-178da3459eb7")
-		)
-		(pin "A21"
-			(uuid "8b44deaa-298f-4e5b-905a-60f3fddb8b47")
-		)
-		(pin "A15"
-			(uuid "e12aba4f-80bc-4c2b-b287-b594034cbfbe")
-		)
-		(pin "A16"
-			(uuid "774df87e-dfd7-4d5a-b680-766cb53f89d1")
-		)
-		(pin "A22"
-			(uuid "39ffc41f-3be2-499f-9af7-93abc7861882")
-		)
-		(pin "A3"
-			(uuid "d3360008-a583-4a99-b891-99deb9bb3869")
-		)
-		(pin "A6"
-			(uuid "a63f6446-3383-437a-8138-f6bec4dfc4b7")
-		)
-		(pin "A23"
-			(uuid "ae504381-43ef-40e3-a1e5-0e8ae95ac0ce")
-		)
-		(pin "A7"
-			(uuid "8d539074-020a-41db-a2cc-a02cd64db20a")
-		)
-		(pin "A2"
-			(uuid "2d18ee63-36f7-4698-a438-4e32979ced9f")
-		)
-		(pin "A4"
-			(uuid "1f9aaaf3-37ed-4192-86a4-2e721707970e")
-		)
-		(pin "B1"
-			(uuid "2854e268-224b-4c64-8a7c-d35e1da56c2b")
-		)
-		(pin "B11"
-			(uuid "6e09c939-56e1-47ce-ba42-88d6a2a5de29")
-		)
-		(pin "A8"
-			(uuid "56563ba3-7ef9-48bb-b7ff-3c85e2d614bb")
-		)
-		(pin "B13"
-			(uuid "9174ba1c-b86b-469e-a77d-db3ffcc5acc5")
-		)
-		(pin "B14"
-			(uuid "44b0f873-ae04-4431-9c63-83defa959d88")
-		)
-		(pin "A28"
-			(uuid "9a395d33-3b48-47ff-b10b-066f9d5c3c0c")
-		)
-		(pin "B17"
-			(uuid "9e826ab2-b88f-43d1-98ab-d80c40132ce2")
-		)
-		(pin "A1"
-			(uuid "0ad443f7-cdb8-4292-b05b-a319aed4e1a0")
-		)
-		(pin "B10"
-			(uuid "06a25de8-12a2-459a-b54d-66ca2dbf2c11")
-		)
-		(pin "B2"
-			(uuid "b1e6af13-e47c-4d92-9ae4-57e984717e0c")
-		)
-		(pin "B20"
-			(uuid "5a0551f2-5bac-4c28-8122-9f6bb90d7898")
-		)
-		(pin "B21"
-			(uuid "867eb13e-37e0-4d81-9dd1-9c749735b4aa")
-		)
-		(pin "A19"
-			(uuid "6116731a-2181-4c9d-8d31-0dfe6947eafd")
-		)
-		(pin "A27"
-			(uuid "fd3db469-e2e5-41a5-87d4-70af2d8cf7bb")
-		)
-		(pin "A32"
-			(uuid "0483afaf-dd53-43b2-aa7d-8f0335a41235")
-		)
-		(pin "B22"
-			(uuid "553a7105-d8ea-4969-8541-651390d5f16f")
-		)
-		(pin "A25"
-			(uuid "3797f6f7-8780-4c69-b400-97625048e898")
-		)
-		(pin "B12"
-			(uuid "b2245416-ebf5-4ca9-9d9d-90caa896e0d2")
-		)
-		(pin "B23"
-			(uuid "aab3351f-efc7-45b4-b405-da6a634031c9")
-		)
-		(pin "A13"
-			(uuid "a926e622-0641-4257-8a03-8c7051864c03")
-		)
-		(pin "A20"
-			(uuid "1ff3999b-a60d-4d64-ae80-f5d59b1f7b7c")
-		)
-		(pin "A5"
-			(uuid "13eab017-a3d8-4c64-a0a5-a23feaf03d45")
-		)
-		(pin "A29"
-			(uuid "46bb7d9f-0d23-4444-a1e4-d73e923e1258")
-		)
-		(pin "A26"
-			(uuid "d5a38cd5-959c-4fa2-8e79-39d2852a6c62")
-		)
-		(pin "B24"
-			(uuid "d913d5d4-034b-46a8-9d25-610007ee2ded")
-		)
-		(pin "B28"
-			(uuid "1245e8ef-0d15-4649-b2be-e826fcaa9e05")
-		)
-		(pin "B29"
-			(uuid "5ece7d3a-43e6-4eb0-a7e8-2224a3108061")
-		)
-		(pin "B30"
-			(uuid "e882cad0-b172-478e-a808-8a1634e7c741")
-		)
-		(pin "B31"
-			(uuid "397a73c1-779c-45d1-b488-27680b272e86")
-		)
-		(pin "B15"
-			(uuid "078c4360-c438-490f-9c87-e341db046aad")
-		)
-		(pin "A12"
-			(uuid "42a21d01-d34e-434f-9d00-5dc48c408f50")
-		)
-		(pin "A18"
-			(uuid "c21adc88-1e34-4cef-ac16-b5953dc0c53e")
-		)
-		(pin "A31"
-			(uuid "72344825-2fbe-4191-acbd-268047762ae1")
-		)
-		(pin "A9"
-			(uuid "03e7a296-fa8d-4e0e-a70c-10ee0894678d")
-		)
-		(pin "B16"
-			(uuid "623698ad-99ef-4b37-8d98-1d0bf04d87e9")
-		)
-		(pin "B26"
-			(uuid "5bf4f2b3-73ea-4b75-90f4-0ce08825effa")
-		)
-		(pin "A11"
-			(uuid "3358933d-4c0b-442e-b508-1f76bdc854a6")
-		)
-		(pin "B27"
-			(uuid "199e5ace-f92f-4623-9575-e88966fa4a2c")
-		)
-		(pin "B32"
-			(uuid "a078f92c-3c65-4ff4-852f-73ba61009693")
-		)
-		(pin "B4"
-			(uuid "9992fcc0-98a0-4a29-b6f2-8257097a60dc")
-		)
-		(pin "B5"
-			(uuid "81f18381-d5d7-4636-b4c5-bffe61adb640")
-		)
-		(pin "A17"
-			(uuid "a4535b79-a927-457b-ab42-6d8966335ffa")
-		)
-		(pin "B6"
-			(uuid "a4a677de-eeef-4897-bd87-fb48817b53f5")
-		)
-		(pin "B9"
-			(uuid "3ec86ec6-5352-49e9-8a62-c8a481fd0d3c")
-		)
-		(pin "B8"
-			(uuid "0601791e-b08a-4f53-ada5-fc97a7b4ebff")
-		)
-		(pin "B7"
-			(uuid "6474ccef-48a6-467c-8a3e-6da07a1c63bb")
-		)
-		(instances
-			(project "KiCAD_Test3"
-				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/bdf9dfe7-ebbc-4e1b-a7b9-19e8a6ddc3c1"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 115.57 142.24 0)
 		(unit 1)
@@ -3012,6 +2759,259 @@
 			(project "KiCAD_Test3"
 				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/bdf9dfe7-ebbc-4e1b-a7b9-19e8a6ddc3c1"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NAE_Connectors:CW312T-Template")
+		(at 142.24 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cce9734-ab14-4804-b2e0-42454a67d534")
+		(property "Reference" "P1"
+			(at 128.27 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCIEx4 EDGE CONNECTOR"
+			(at 139.192 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "tutorial_2_library:CW312_Template"
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BOARD AND EDGE CONNECTOR TEMPLATE FOR CW312 TARGETS"
+			(at 151.13 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A21"
+			(uuid "1ca8eb18-dd39-4558-b353-f548aedc297e")
+		)
+		(pin "A5"
+			(uuid "b08d5b57-d1d9-46f5-9255-6dc7dd072fe4")
+		)
+		(pin "A9"
+			(uuid "d9d6c736-12cd-4b1f-8155-18ac88fe4d08")
+		)
+		(pin "A10"
+			(uuid "9209095e-0a4c-4ccc-ae89-d161865a1204")
+		)
+		(pin "B17"
+			(uuid "81f36d42-1007-451b-aa95-2cbc0db7a52c")
+		)
+		(pin "B21"
+			(uuid "83ea970b-e6c4-4790-a9af-a34dd7f44ada")
+		)
+		(pin "B20"
+			(uuid "3bb37edf-b98d-4bf0-9085-c76801c27e8a")
+		)
+		(pin "A2"
+			(uuid "eb0bc180-49d3-40ae-983a-fccd481b4cec")
+		)
+		(pin "B15"
+			(uuid "042a96e6-48e6-4293-a85e-9d4de7bb5833")
+		)
+		(pin "A1"
+			(uuid "1d608391-d9da-4fb8-a989-fbd85a2789db")
+		)
+		(pin "A27"
+			(uuid "e7c60964-0fe6-4a24-91ce-dfec77b7c34b")
+		)
+		(pin "B22"
+			(uuid "afeac3b8-e4ac-4cd6-8113-70a49d15ff48")
+		)
+		(pin "B23"
+			(uuid "a7a72675-64ed-4337-937f-75d33cd70d21")
+		)
+		(pin "B25"
+			(uuid "3e4d7ff0-ee31-4b58-9ffb-ce82e35afd5a")
+		)
+		(pin "B18"
+			(uuid "3fab6213-154e-439c-a90c-1b8f874584f8")
+		)
+		(pin "B16"
+			(uuid "6d3b7667-709a-4347-bbea-d99ceb1d7b23")
+		)
+		(pin "B27"
+			(uuid "e7bab602-66bc-4125-bd7d-b93a42a7affb")
+		)
+		(pin "B28"
+			(uuid "8edcc267-ad00-47a6-9d4e-b51cbb76ea75")
+		)
+		(pin "A17"
+			(uuid "c840c22a-02f4-49a3-a66b-7be15399afbe")
+		)
+		(pin "B24"
+			(uuid "e9cf0c5a-8692-44d6-9d27-e505daf98624")
+		)
+		(pin "A23"
+			(uuid "9e440dbf-963d-4466-8210-211ebe826315")
+		)
+		(pin "A20"
+			(uuid "9ed9d7a6-0e4d-4d56-a5f7-68a3cf3c1300")
+		)
+		(pin "A11"
+			(uuid "f4ff2418-8c85-4dc2-ab8f-432497349513")
+		)
+		(pin "A15"
+			(uuid "00ace291-cc32-4bbc-bd78-9d0c25dfdb1f")
+		)
+		(pin "A18"
+			(uuid "ff96411d-62f1-44c8-8d00-ec10f83f77d4")
+		)
+		(pin "A25"
+			(uuid "b97e7e58-2c8e-4c8f-88f6-5ec4d0f304f4")
+		)
+		(pin "B11"
+			(uuid "bb8ccaea-2cf0-4a2e-b14b-9f68d622ae8a")
+		)
+		(pin "B12"
+			(uuid "502ff2f8-c5bb-424c-9acf-c6643f42afe4")
+		)
+		(pin "B13"
+			(uuid "b5691c1b-dde9-4a2f-87cb-c178988063ba")
+		)
+		(pin "A12"
+			(uuid "e50a4dc7-1275-452d-b64e-a82c1f6b12a1")
+		)
+		(pin "A14"
+			(uuid "8a2e6ade-d8f8-4ad3-8ef6-b62ce94735d0")
+		)
+		(pin "B26"
+			(uuid "a292511c-694b-4eb6-a434-487df025d237")
+		)
+		(pin "B29"
+			(uuid "0780d093-0eee-41a7-bec9-e8bf12d88f96")
+		)
+		(pin "B3"
+			(uuid "928a0293-a50c-4d3d-be80-d503e5ed3298")
+		)
+		(pin "B19"
+			(uuid "ef4e857d-4400-4381-814f-0cafbb9f6d33")
+		)
+		(pin "B1"
+			(uuid "bffaee7a-9c5b-4601-97b1-97adbfabb875")
+		)
+		(pin "B30"
+			(uuid "56a049a7-427c-449b-976f-cdf2ad751119")
+		)
+		(pin "B32"
+			(uuid "ae47f3db-d796-4d48-b076-5617dec1d60b")
+		)
+		(pin "A28"
+			(uuid "8b9697b5-abca-46dd-87e6-8cadbc955a30")
+		)
+		(pin "A7"
+			(uuid "c6337b00-8069-4aba-b66c-04c78ead4f20")
+		)
+		(pin "A4"
+			(uuid "da3b0fc7-d5dc-4dd5-88b4-75f02163988a")
+		)
+		(pin "A19"
+			(uuid "252c3ef7-3513-471c-8a85-5f220a988041")
+		)
+		(pin "B31"
+			(uuid "e6d95509-71cd-4e4b-99b4-c2c37aa847ac")
+		)
+		(pin "B4"
+			(uuid "53aa0a30-3247-4e25-a3f4-ea9d9fac2eac")
+		)
+		(pin "B5"
+			(uuid "41110c97-0de9-4832-8cd9-c4d1fc0c1444")
+		)
+		(pin "B6"
+			(uuid "e4c0fe77-f663-4e7f-9d8b-05d9cf560f4f")
+		)
+		(pin "B7"
+			(uuid "708d3c8a-5af0-4967-a2f2-edecf27f6efc")
+		)
+		(pin "B8"
+			(uuid "24e001ad-6805-44f5-bd8a-7173ccd4efb7")
+		)
+		(pin "B2"
+			(uuid "e87b0b34-f6c4-400e-ba22-cc74282a01c3")
+		)
+		(pin "A16"
+			(uuid "860f5225-b545-42bd-a942-322a231ec302")
+		)
+		(pin "A13"
+			(uuid "0f8a0997-ca6d-4432-a251-9941fa09fe61")
+		)
+		(pin "A32"
+			(uuid "df9bb399-5eb1-4432-a4b6-b8a1c896b441")
+		)
+		(pin "B14"
+			(uuid "6e7f769c-ef5f-4bd8-a2d6-c7e07a3573e0")
+		)
+		(pin "A26"
+			(uuid "7369571b-2ede-4bf8-9feb-500a26636909")
+		)
+		(pin "A30"
+			(uuid "de23eecc-59a0-449e-bf1b-e23e08f1da91")
+		)
+		(pin "B10"
+			(uuid "e7bc6a5f-16fe-480d-a5ad-61a10b0dff1d")
+		)
+		(pin "A6"
+			(uuid "4c953a23-9e50-4103-83c6-add5e3f39082")
+		)
+		(pin "A29"
+			(uuid "fb905dc9-4b75-43f6-b873-928029a05ea2")
+		)
+		(pin "A22"
+			(uuid "3c96b523-5bf4-4b1a-a045-bdaba9ce5a95")
+		)
+		(pin "A31"
+			(uuid "a00dd8ed-1d33-41e3-9f76-2cf2322afd0f")
+		)
+		(pin "A24"
+			(uuid "e8c11c2b-868d-4f59-88f9-c766573d0f49")
+		)
+		(pin "A3"
+			(uuid "56d18d4c-41c9-4313-85fa-2516b15b7a17")
+		)
+		(pin "A8"
+			(uuid "df0fb4c9-9e4a-4ea6-b2a5-2a1593d0d434")
+		)
+		(pin "B9"
+			(uuid "f96741bb-9f48-45e2-bc0b-660c31531142")
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/bdf9dfe7-ebbc-4e1b-a7b9-19e8a6ddc3c1"
+					(reference "P1")
 					(unit 1)
 				)
 			)

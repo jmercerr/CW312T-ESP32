@@ -457,9 +457,7 @@
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "VCC": "rgb(33, 255, 56)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -529,11 +527,71 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Display Value",
+          "name": "Display Value",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufactuer Part Number",
+          "name": "Manufactuer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1",
+          "name": "Supplier 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1 Part Number",
+          "name": "Supplier 1 Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2",
+          "name": "Supplier 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2 Part Number",
+          "name": "Supplier 2 Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

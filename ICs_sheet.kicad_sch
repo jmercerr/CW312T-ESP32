@@ -1110,118 +1110,20 @@
 				)
 			)
 		)
-		(symbol "nae_caps:CAP_100n_6.3V_0603"
+		(symbol "NAE_Connectors:Solder_Jumper_2_NC"
 			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at -20.32 5.08 0)
+			(property "Reference" "JP"
+				(at -3.81 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "CAP_100n_6.3V_0603"
-				(at 7.62 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at -3.81 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-				(at 8.89 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-				(at -1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Display Value" "100n"
-				(at 15.24 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -12.7 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-				(at -3.81 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "DigiKey"
-				(at -19.05 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-				(at 8.89 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2" "no_data"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2 Part Number" "no_data"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "CAP CER 0.1UF 6.3V X7R 0603"
+			(property "Value" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1230,468 +1132,8 @@
 					(hide yes)
 				)
 			)
-			(symbol "CAP_100n_6.3V_0603_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -2.032) (xy -0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.032) (xy 0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CAP_100n_6.3V_0603_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "nae_caps:CAP_10n_10V_0603"
-			(pin_numbers hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -20.32 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CAP_10n_10V_0603"
-				(at 7.62 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at -3.81 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-				(at 8.89 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP CER 10000PF 10V X7R 0603"
-				(at -1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Display Value" "10n"
-				(at 15.24 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -12.7 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "CC0603KRX7R6BB103"
-				(at -3.81 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "DigiKey"
-				(at -19.05 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1 Part Number" "311-4054-1-ND"
-				(at 8.89 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2" "no_data"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2 Part Number" "no_data"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "CAP CER 10000PF 10V X7R 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CAP_10n_10V_0603_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -2.032) (xy -0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.032) (xy 0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CAP_10n_10V_0603_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "nae_caps:CAP_2u2_6.3V_0603"
-			(pin_numbers hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -20.32 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CAP_2u2_6.3V_0603"
-				(at 7.62 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at -3.81 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-				(at 8.89 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP CER 2.2UF 6.3V X7R 0603"
-				(at -1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Display Value" "2u2"
-				(at 15.24 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -12.7 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "CC0603KRX7R5BB225"
-				(at -3.81 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "DigiKey"
-				(at -19.05 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1 Part Number" "311-1795-1-ND"
-				(at 8.89 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2" "no_data"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2 Part Number" "no_data"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "CAP CER 2.2UF 6.3V X7R 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CAP_2u2_6.3V_0603_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -2.032) (xy -0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.032) (xy 0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CAP_2u2_6.3V_0603_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
+				(at -1.27 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1708,7 +1150,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1717,7 +1159,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "Display Value" "NC"
+				(at -3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1726,67 +1176,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Manufactuer Part Number" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1795,7 +1185,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Supplier 1" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1804,169 +1194,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(property "Supplier 1 Part Number" ""
 				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "tutorial_2_library:CAP_3000p_50V_0603"
-			(pin_numbers hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -20.32 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CAP_3000p_50V_0603"
-				(at 7.62 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at -3.81 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-				(at 8.89 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP CER 3000PF 50V C0G/NP0 0603"
-				(at -1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Display Value" "3000pf"
-				(at 15.24 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at -12.7 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "CC0603JRNPO9BN302"
-				(at -3.81 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "DigiKey"
-				(at -19.05 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1 Part Number" "13-CC0603JRNPO9BN302CT-ND"
-				(at 8.89 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1992,46 +1221,23 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "3000 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CAP_3000p_50V_0603_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -2.032) (xy -0.762 2.032)
-					)
+			(symbol "Solder_Jumper_2_NC_1_1"
+				(arc
+					(start 0 1.27)
+					(mid -0.526 0)
+					(end 0 -1.27)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 -2.032) (xy 0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CAP_3000p_50V_0603_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.794)
-					(name "~"
+				(pin unspecified line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2046,10 +1252,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.794)
-					(name "~"
+				(pin unspecified line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2066,7 +1272,248 @@
 				)
 			)
 		)
-		(symbol "tutorial_2_library:ESP32-D0WDQ6"
+		(symbol "NAE_Connectors:VERT_HDR_2x3_2.54mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HDR_6_2.54"
+				(at 6.35 -36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+				(at 1.27 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN HEADER VERT 6POS 2.54MM"
+				(at 0 -34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Display Value" "HDR"
+				(at 2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Adam Tech"
+				(at -6.35 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "PH2-06-UA"
+				(at 6.35 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at -5.08 -36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1 Part Number" "2057-PH2-06-UA-ND"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" ""
+				(at -11.43 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2 Part Number" ""
+				(at -11.43 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Connector Header Through Hole 6 position 0.100\" (2.54mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VERT_HDR_2x3_2.54mm_1_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NAE_Integrated_Circuits:ESP32-D0WDQ6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3081,7 +2528,7 @@
 				)
 			)
 		)
-		(symbol "tutorial_2_library:IS25WP032D-JBLE"
+		(symbol "NAE_Integrated_Circuits:IS25WP032D-JBLE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3358,168 +2805,7 @@
 				)
 			)
 		)
-		(symbol "tutorial_2_library:Solder_Jumper_2_NC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SJ"
-				(at -3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
-				(at -1.27 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Display Value" "NC"
-				(at -3.81 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufactuer Part Number" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1 Part Number" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 2 Part Number" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Solder_Jumper_2_NC_1_1"
-				(arc
-					(start 0 1.27)
-					(mid -0.526 0)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "tutorial_2_library:TXB0104PWR"
+		(symbol "NAE_Integrated_Circuits:TXB0104PWR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3904,29 +3190,21 @@
 				)
 			)
 		)
-		(symbol "tutorial_2_library:VERT_HDR_6_2.54mm"
+		(symbol "nae_caps:CAP_100n_6.3V_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -3.81 3.81 0)
+			(property "Reference" "C"
+				(at -20.32 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "HDR_6_2.54"
-				(at 6.35 -36.83 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical"
-				(at 1.27 -26.67 0)
+			(property "Value" "CAP_100n_6.3V_0603"
+				(at 7.62 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3934,8 +3212,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf"
-				(at 0 -24.13 0)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -3.81 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3943,8 +3221,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CONN HEADER VERT 6POS 2.54MM"
-				(at 0 -34.29 0)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+				(at 8.89 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3952,16 +3230,8 @@
 					(hide yes)
 				)
 			)
-			(property "Display Value" "HDR"
-				(at 2.54 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Adam Tech"
-				(at -6.35 -31.75 0)
+			(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
+				(at -1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3969,8 +3239,25 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "PH2-06-UA"
-				(at 6.35 -31.75 0)
+			(property "Display Value" "100n"
+				(at 15.24 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at -12.7 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
+				(at -3.81 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3979,7 +3266,7 @@
 				)
 			)
 			(property "Supplier 1" "DigiKey"
-				(at -5.08 -36.83 0)
+				(at -19.05 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3987,8 +3274,8 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier 1 Part Number" "2057-PH2-06-UA-ND"
-				(at 0 -29.21 0)
+			(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
+				(at 8.89 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3996,8 +3283,8 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier 2" ""
-				(at -11.43 0 0)
+			(property "Supplier 2" "no_data"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4005,8 +3292,8 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier 2 Part Number" ""
-				(at -11.43 0 0)
+			(property "Supplier 2 Part Number" "no_data"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4014,7 +3301,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Connector Header Through Hole 6 position 0.100\" (2.54mm)"
+			(property "ki_keywords" "CAP CER 0.1UF 6.3V X7R 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4023,22 +3310,37 @@
 					(hide yes)
 				)
 			)
-			(symbol "VERT_HDR_6_2.54mm_1_1"
-				(rectangle
-					(start -3.81 2.54)
-					(end 3.81 -7.62)
+			(symbol "CAP_100n_6.3V_0603_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin unspecified line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name ""
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAP_100n_6.3V_0603_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4053,10 +3355,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name ""
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4071,17 +3373,166 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name ""
+			)
+		)
+		(symbol "nae_caps:CAP_10n_10V_0603"
+			(pin_numbers hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -20.32 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CAP_10n_10V_0603"
+				(at 7.62 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -3.81 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+				(at 8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 10000PF 10V X7R 0603"
+				(at -1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Display Value" "10n"
+				(at 15.24 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at -12.7 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CC0603KRX7R6BB103"
+				(at -3.81 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at -19.05 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1 Part Number" "311-4054-1-ND"
+				(at 8.89 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "no_data"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2 Part Number" "no_data"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CAP CER 10000PF 10V X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_10n_10V_0603_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAP_10n_10V_0603_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4089,35 +3540,17 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name ""
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -5.08 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4125,17 +3558,585 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 6.35 -5.08 180)
-					(length 2.54)
-					(name ""
+			)
+		)
+		(symbol "nae_caps:CAP_2u2_6.3V_0603"
+			(pin_numbers hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -20.32 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CAP_2u2_6.3V_0603"
+				(at 7.62 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -3.81 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+				(at 8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 2.2UF 6.3V X7R 0603"
+				(at -1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Display Value" "2u2"
+				(at 15.24 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at -12.7 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CC0603KRX7R5BB225"
+				(at -3.81 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at -19.05 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1 Part Number" "311-1795-1-ND"
+				(at 8.89 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "no_data"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2 Part Number" "no_data"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CAP CER 2.2UF 6.3V X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_2u2_6.3V_0603_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAP_2u2_6.3V_0603_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nae_caps:CAP_3000p_50V_0603"
+			(pin_numbers hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -20.32 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CAP_3000p_50V_0603"
+				(at 7.62 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -3.81 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
+				(at 8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 3000PF 50V C0G/NP0 0603"
+				(at -1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Display Value" "3000pf"
+				(at 15.24 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at -12.7 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CC0603JRNPO9BN302"
+				(at -3.81 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at -19.05 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1 Part Number" "13-CC0603JRNPO9BN302CT-ND"
+				(at 8.89 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2 Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "3000 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_3000p_50V_0603_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAP_3000p_50V_0603_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4273,12 +4274,6 @@
 		(uuid "8e01e74f-7e0c-45dc-a139-49000f142f4b")
 	)
 	(junction
-		(at 231.14 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91e14795-adb8-4454-8f6e-042fd9432b36")
-	)
-	(junction
 		(at 43.18 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4289,12 +4284,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bafd9a5-eb3d-45c7-be5f-fae43c91775e")
-	)
-	(junction
-		(at 218.44 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa7309d3-cd30-4431-b4a7-fdbecb8a463c")
 	)
 	(junction
 		(at 24.13 81.28)
@@ -5108,16 +5097,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 105.41) (xy 218.44 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f8ba662-9b61-4931-abbd-28067227275e")
-	)
-	(wire
-		(pts
 			(xy 33.02 81.28) (xy 24.13 81.28)
 		)
 		(stroke
@@ -5158,7 +5137,17 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 105.41) (xy 231.14 105.41)
+			(xy 231.14 105.41) (xy 243.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63316e2e-60a9-48f7-86f3-2ba01ff4676f")
+	)
+	(wire
+		(pts
+			(xy 193.04 105.41) (xy 218.44 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5395,16 +5384,6 @@
 			(type default)
 		)
 		(uuid "7a3b9881-500a-4418-b967-045421d5fdac")
-	)
-	(wire
-		(pts
-			(xy 231.14 105.41) (xy 243.84 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c73ab54-4a4d-4bf8-b183-2ac75f270b5e")
 	)
 	(wire
 		(pts
@@ -5688,7 +5667,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 74.93) (xy 231.14 83.82)
+			(xy 231.14 74.93) (xy 231.14 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7479,6 +7458,136 @@
 		)
 	)
 	(symbol
+		(lib_id "nae_caps:CAP_3000p_50V_0603")
+		(at 58.42 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "270a47c5-fa5b-4534-8a9f-9905022c4b68")
+		(property "Reference" "C7"
+			(at 58.42 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAP_3000p_50V_0603"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 3000PF 50V C0G/NP0 0603"
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "3000pf"
+			(at 58.42 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 45.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603JRNPO9BN302"
+			(at 54.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 39.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Part Number" "13-CC0603JRNPO9BN302CT-ND"
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Part Number" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1690813-9cc2-42c4-a338-c7e73473607d")
+		)
+		(pin "2"
+			(uuid "6393a6ac-0718-45bb-bfca-7af2db1b2a4a")
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 30.48 0)
 		(unit 1)
@@ -8395,154 +8504,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tutorial_2_library:IS25WP032D-JBLE")
-		(at 54.61 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "611558af-17e0-4706-8b5b-712578ec5b45")
-		(property "Reference" "U3"
-			(at 45.466 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IS25WP032D"
-			(at 69.85 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm"
-			(at 54.61 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.issi.com/WW/pdf/25LP-WP032D.pdf"
-			(at 57.15 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC FLASH 32MBIT SPI/QUAD 8SOIC"
-			(at 54.61 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "IS25WP032D-JBLE"
-			(at 53.086 181.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "ISSI, Integrated Silicon Solution Inc"
-			(at 45.72 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "IS25WP032D-JBLE"
-			(at 55.88 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
-			(at 49.53 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 Part Number" "706-1615-ND"
-			(at 62.23 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 54.61 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2 Part Number" ""
-			(at 54.61 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "176d5eff-2857-44e4-b624-0cc90be3e294")
-		)
-		(pin "8"
-			(uuid "31a3dfc3-1e9a-4304-a22d-9ac9fb0854b9")
-		)
-		(pin "6"
-			(uuid "e278ca6b-b623-4ff4-89c4-25144dbd3771")
-		)
-		(pin "7"
-			(uuid "41f9ce91-74fd-4fb2-9199-33541bd3fc42")
-		)
-		(pin "5"
-			(uuid "744cafe2-7576-46bd-b39a-b25e9acbc039")
-		)
-		(pin "1"
-			(uuid "b2bc4d32-3ebb-47ac-84d1-d5b13bd36bfd")
-		)
-		(pin "2"
-			(uuid "38df3f04-d62f-46c8-946f-e0343af843da")
-		)
-		(pin "3"
-			(uuid "521a412e-3c86-447e-a9bd-0fc0806172b9")
-		)
-		(instances
-			(project "KiCAD_Test3"
-				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 38.1 52.07 0)
 		(unit 1)
@@ -9069,268 +9030,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tutorial_2_library:CAP_3000p_50V_0603")
-		(at 58.42 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "715b858e-1883-428a-a67a-a9c57a12ea75")
-		(property "Reference" "C7"
-			(at 58.42 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAP_3000p_50V_0603"
-			(at 66.04 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 67.31 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 3000PF 50V C0G/NP0 0603"
-			(at 57.15 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "3000pf"
-			(at 58.42 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 45.72 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603JRNPO9BN302"
-			(at 54.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
-			(at 39.37 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 Part Number" "13-CC0603JRNPO9BN302CT-ND"
-			(at 67.31 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 58.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2 Part Number" ""
-			(at 58.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5ddcf373-417d-46c8-8c4c-ee226a34c830")
-		)
-		(pin "1"
-			(uuid "5a14016c-8bb7-4fad-b472-ca31899dd21c")
-		)
-		(instances
-			(project "KiCAD_Test3"
-				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tutorial_2_library:Solder_Jumper_2_NC")
-		(at 209.55 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73f13cd1-99a6-44ed-8d4f-05574c137cf6")
-		(property "Reference" "SJ1"
-			(at 210.312 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "NC"
-			(at 210.312 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer Part Number" ""
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" ""
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 Part Number" ""
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2 Part Number" ""
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1992a152-5747-4fc0-8422-f13892709879")
-		)
-		(pin "1"
-			(uuid "4b851544-1d24-4574-80d8-faa1269be335")
-		)
-		(instances
-			(project "KiCAD_Test3"
-				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
-					(reference "SJ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 243.84 121.92 0)
 		(unit 1)
@@ -9390,6 +9089,136 @@
 			(project "KiCAD_Test3"
 				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NAE_Connectors:Solder_Jumper_2_NC")
+		(at 224.79 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76928b71-422c-4d0e-bdf6-0522c73cf45f")
+		(property "Reference" "JP2"
+			(at 224.79 115.062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
+			(at 212.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "NC"
+			(at 224.79 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer Part Number" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Part Number" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Part Number" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6382944-7570-4288-928f-48589bdb1a72")
+		)
+		(pin "1"
+			(uuid "ad28ee99-9da7-469b-8dd2-9f10a432ae6e")
+		)
+		(instances
+			(project "KiCAD_Test3"
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -9586,136 +9415,6 @@
 			(project "KiCAD_Test3"
 				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tutorial_2_library:Solder_Jumper_2_NC")
-		(at 224.79 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7dc10ead-0f73-4ab5-a3eb-0c06b4853185")
-		(property "Reference" "SJ2"
-			(at 224.79 114.046 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 224.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
-			(at 237.49 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "NC"
-			(at 224.79 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 224.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer Part Number" ""
-			(at 224.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" ""
-			(at 224.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 Part Number" ""
-			(at 224.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 224.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2 Part Number" ""
-			(at 224.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "80e4a17e-2863-40f4-98d4-2d07a6a554f5")
-		)
-		(pin "1"
-			(uuid "0a86a16e-082f-4620-81d8-6158b230a6e8")
-		)
-		(instances
-			(project "KiCAD_Test3"
-				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
-					(reference "SJ2")
 					(unit 1)
 				)
 			)
@@ -9985,6 +9684,154 @@
 		)
 	)
 	(symbol
+		(lib_id "NAE_Integrated_Circuits:IS25WP032D-JBLE")
+		(at 54.61 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "891129ac-2a8e-45bf-b8a7-86fa5b2a3122")
+		(property "Reference" "U3"
+			(at 45.466 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IS25WP032D"
+			(at 69.85 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm"
+			(at 54.61 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.issi.com/WW/pdf/25LP-WP032D.pdf"
+			(at 57.15 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC FLASH 32MBIT SPI/QUAD 8SOIC"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "IS25WP032D-JBLE"
+			(at 53.086 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ISSI, Integrated Silicon Solution Inc"
+			(at 45.72 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "IS25WP032D-JBLE"
+			(at 55.88 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 49.53 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Part Number" "706-1615-ND"
+			(at 62.23 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 54.61 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Part Number" ""
+			(at 54.61 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "05690d8c-ae39-4db3-a0b4-f8083425cd56")
+		)
+		(pin "4"
+			(uuid "d661641b-025b-4e30-a72c-c95193eeea68")
+		)
+		(pin "3"
+			(uuid "4289276f-84c0-47d0-b082-bf34cf92a437")
+		)
+		(pin "2"
+			(uuid "1f5fecc3-cbb4-4117-b05a-51e4c9269e37")
+		)
+		(pin "7"
+			(uuid "e85e5ac5-4369-4fa4-899f-4724adfc5ef5")
+		)
+		(pin "6"
+			(uuid "0e0e9eae-3d8b-4431-a80a-91dc52047e98")
+		)
+		(pin "1"
+			(uuid "2de1584f-3bcf-452f-9f29-018890487fca")
+		)
+		(pin "5"
+			(uuid "98d1e157-9a15-4f94-a8d2-3527ff058099")
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 273.05 121.92 0)
 		(unit 1)
@@ -10051,7 +9898,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 83.82 0)
+		(at 231.14 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10059,7 +9906,7 @@
 		(dnp no)
 		(uuid "8c375dc0-1f1c-40a0-bb1e-a78bdc8acaef")
 		(property "Reference" "#PWR062"
-			(at 231.14 90.17 0)
+			(at 231.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10068,7 +9915,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 87.63 0)
+			(at 231.14 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10076,7 +9923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 83.82 0)
+			(at 231.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10085,7 +9932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 83.82 0)
+			(at 231.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +9941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 83.82 0)
+			(at 231.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,6 +9956,277 @@
 			(project "KiCAD_Test3"
 				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NAE_Integrated_Circuits:ESP32-D0WDQ6")
+		(at 96.52 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ffb1aca-c51e-46d5-945d-f5becc394e43")
+		(property "Reference" "U1"
+			(at 72.39 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-D0WDQ6"
+			(at 105.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm"
+			(at 96.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf"
+			(at 97.79 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC RF TXRX+MCU BLE 48QFN"
+			(at 96.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "ESP32-D0WDQ6"
+			(at 72.136 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Espressif Systems"
+			(at 87.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ESP32-D0WDQ6"
+			(at 96.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 92.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Part Number" "1904-1004-1-ND"
+			(at 106.68 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Part Number" ""
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "28"
+			(uuid "3e5a91ec-c94f-4dc5-8691-7d475e438399")
+		)
+		(pin "4"
+			(uuid "0a232655-a9bf-4d0c-b91d-cfc0e99dd6e5")
+		)
+		(pin "13"
+			(uuid "d486d2da-602d-42f3-9125-bba5bdbb068c")
+		)
+		(pin "29"
+			(uuid "2cca487b-509c-403c-b6dd-4e7fa029b995")
+		)
+		(pin "44"
+			(uuid "6c9049b7-b286-4d8b-bb57-ccd1f68e66fa")
+		)
+		(pin "8"
+			(uuid "0eb4fc9e-5997-4354-b3ac-b1a0c4699362")
+		)
+		(pin "20"
+			(uuid "af392f50-50b6-4d29-8830-0bcff1883110")
+		)
+		(pin "12"
+			(uuid "744f4fd2-2ce2-43fb-b471-1fd71b8d497c")
+		)
+		(pin "7"
+			(uuid "841fb41d-5684-48d7-b1d6-a1474b047aa7")
+		)
+		(pin "47"
+			(uuid "2fa005d4-a109-44b7-9c69-5d713fa38a1b")
+		)
+		(pin "24"
+			(uuid "d6515627-5985-4c80-82b4-cc81a42220da")
+		)
+		(pin "21"
+			(uuid "a5e6614d-5bd2-4195-9fcc-c845bbc9c68b")
+		)
+		(pin "33"
+			(uuid "41c36ac1-8382-45d7-a265-e943402aa8b3")
+		)
+		(pin "37"
+			(uuid "19e77536-33c1-4514-b541-1280709ed1d9")
+		)
+		(pin "38"
+			(uuid "4d8ed1e4-c0a3-4cd6-9f53-d72b1025da28")
+		)
+		(pin "17"
+			(uuid "56d35708-4e1f-4218-81db-96d7b69454e2")
+		)
+		(pin "45"
+			(uuid "8cc625c7-19bf-4c1b-a212-c52c385e553a")
+		)
+		(pin "39"
+			(uuid "6a158aaa-ea06-4351-b8ae-b9627b1d910b")
+		)
+		(pin "49"
+			(uuid "1b9ef217-c8d0-48a4-93d8-e574552f31e9")
+		)
+		(pin "36"
+			(uuid "9bdd3f0c-58ee-4386-b6f5-2ab4987e7b78")
+		)
+		(pin "2"
+			(uuid "bfc17f44-b228-43a3-b8bb-b8c3a35eaf9e")
+		)
+		(pin "10"
+			(uuid "6dd85992-d949-402b-a7a9-f2cd4c0c3703")
+		)
+		(pin "18"
+			(uuid "f9516055-c21a-4d15-972c-0be557b8010c")
+		)
+		(pin "16"
+			(uuid "87f87b6b-4762-4891-b27d-7bfe419c57d5")
+		)
+		(pin "25"
+			(uuid "add8d872-51b6-4d73-b354-36018749063d")
+		)
+		(pin "41"
+			(uuid "cd20adb5-cb23-4b69-8b89-cc26e108c682")
+		)
+		(pin "15"
+			(uuid "fcf24db0-0858-460f-ad7c-08a1b738b4ec")
+		)
+		(pin "27"
+			(uuid "165f0def-25f8-49e9-8ae2-6bf3be5a0c52")
+		)
+		(pin "23"
+			(uuid "4b36baf0-d37d-4efc-8b27-8547d621a6d6")
+		)
+		(pin "3"
+			(uuid "bc1fdc86-4a21-4024-abea-5e1cb2b3ad1e")
+		)
+		(pin "35"
+			(uuid "95cff2d5-404f-4423-9154-83f5a30f8e5b")
+		)
+		(pin "19"
+			(uuid "8c43f829-0580-4f84-9f9f-f043bd2b6e5f")
+		)
+		(pin "1"
+			(uuid "69280c48-550a-492a-a909-90b83ac6bbd8")
+		)
+		(pin "14"
+			(uuid "b37e8c40-954e-4f8a-9c74-5c1f280e6c08")
+		)
+		(pin "11"
+			(uuid "78a2ac3c-9489-46ea-9471-03c6ab083262")
+		)
+		(pin "26"
+			(uuid "97fc20be-4de3-46ed-9f0f-df28b1612109")
+		)
+		(pin "31"
+			(uuid "7bd27478-0ad2-441a-a1fb-b129dbb74551")
+		)
+		(pin "43"
+			(uuid "3a86fff2-b314-4572-b908-722c14eb3e05")
+		)
+		(pin "6"
+			(uuid "33ee1c56-9c44-42fe-b380-a27845e8603b")
+		)
+		(pin "22"
+			(uuid "76d2ca45-97b1-4a6d-81c4-9961c7baa49c")
+		)
+		(pin "30"
+			(uuid "7fa72516-3a5f-4035-a064-09c73b2008ca")
+		)
+		(pin "40"
+			(uuid "bf6f85e1-fcb7-438b-810d-9b13beb4307a")
+		)
+		(pin "46"
+			(uuid "c2b0771b-065c-4541-ba82-498204ca62ae")
+		)
+		(pin "48"
+			(uuid "cae65333-f93e-48b3-9b9c-e958780cb1cd")
+		)
+		(pin "5"
+			(uuid "05a1893c-b18a-4dc3-9f90-da5a0608c45e")
+		)
+		(pin "42"
+			(uuid "8c70d1f4-f64f-4924-b583-6cdb24ab9ce7")
+		)
+		(pin "32"
+			(uuid "3afb082e-e124-4a6f-b640-2ee9a1298a2e")
+		)
+		(pin "9"
+			(uuid "ad4b4b30-efce-4eee-9abe-e4eb0e226714")
+		)
+		(pin "34"
+			(uuid "54ebef96-4a81-4dd6-817d-f07eb8ae059d")
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10306,6 +10424,172 @@
 			(project "KiCAD_Test3"
 				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NAE_Integrated_Circuits:TXB0104PWR")
+		(at 218.44 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9de00be6-eb7b-4823-9b99-2e09131630a1")
+		(property "Reference" "U2"
+			(at 209.296 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXB0104PWR"
+			(at 228.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txb0104.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1730452248372&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftxb0104"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC TRANSLATOR BIDIR 14TSSOP"
+			(at 218.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "TXB0104PWR"
+			(at 214.376 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TXB0104PWR"
+			(at 218.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Part Number" "296-21929-1-ND"
+			(at 229.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 201.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Part Number" ""
+			(at 201.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dcf93261-626f-420f-9add-467ca7791081")
+		)
+		(pin "1"
+			(uuid "12c33671-163d-4807-9918-6eb07aa81d07")
+		)
+		(pin "14"
+			(uuid "036fb109-8ab2-457d-be69-c9731fa72e7e")
+		)
+		(pin "10"
+			(uuid "a88a24a6-3452-4b7a-b461-68baf8114ed7")
+		)
+		(pin "3"
+			(uuid "2fcd1aeb-2f6e-489a-80a3-d37888d74ee7")
+		)
+		(pin "8"
+			(uuid "9f53d5b8-787c-4bd6-8762-9a5f6e87b41d")
+		)
+		(pin "12"
+			(uuid "3b404712-b12a-4abc-92ac-52f35c4c5c4e")
+		)
+		(pin "6"
+			(uuid "d443604e-53b8-445f-af6a-67092e0cbc73")
+		)
+		(pin "13"
+			(uuid "fb92698e-9d77-470b-88b6-9e2e3417dc65")
+		)
+		(pin "4"
+			(uuid "b891835f-49e1-431d-9c9e-b9c11d0c83dd")
+		)
+		(pin "5"
+			(uuid "3d355312-9887-4f67-bb01-894d4f23413c")
+		)
+		(pin "7"
+			(uuid "ca107331-94d9-4561-ada6-0654258ab1d0")
+		)
+		(pin "9"
+			(uuid "1e8253e0-9f12-43fd-8e49-482dffb4eefe")
+		)
+		(pin "11"
+			(uuid "6a9b2034-f5de-41e6-a134-28388928f803")
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10708,172 +10992,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tutorial_2_library:TXB0104PWR")
-		(at 218.44 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7d795ed-5bed-424e-9e9d-bee8edaaff47")
-		(property "Reference" "U2"
-			(at 209.296 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TXB0104PWR"
-			(at 228.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 219.71 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txb0104.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1730452248372&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftxb0104"
-			(at 208.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC TRANSLATOR BIDIR 14TSSOP"
-			(at 218.44 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "TXB0104PWR"
-			(at 214.376 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 208.28 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TXB0104PWR"
-			(at 218.44 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
-			(at 201.93 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 Part Number" "296-21929-1-ND"
-			(at 229.87 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 201.93 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2 Part Number" ""
-			(at 201.93 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "2326d8f5-b2f2-4629-bbe9-815515af9eba")
-		)
-		(pin "13"
-			(uuid "f2231698-1b39-46be-b7e3-d876b4750aa6")
-		)
-		(pin "3"
-			(uuid "fe59dcd4-69ab-47e8-a344-b1803c845d71")
-		)
-		(pin "5"
-			(uuid "6ab2c8ac-9b06-49d1-9657-a80ab9196e27")
-		)
-		(pin "10"
-			(uuid "bfbe30ec-7392-462f-919f-e813cba4e70b")
-		)
-		(pin "14"
-			(uuid "b23ce09a-edd5-439c-ad4e-db836e329363")
-		)
-		(pin "11"
-			(uuid "9489bcbe-a3b2-4b02-8c09-1adb9a43a8d7")
-		)
-		(pin "1"
-			(uuid "5154fd42-9f0a-4a20-b2b0-08fa3307a95a")
-		)
-		(pin "6"
-			(uuid "074a0b9d-3fdf-43f9-b4a5-9641dbe776be")
-		)
-		(pin "4"
-			(uuid "e3e33a8c-f3bd-4591-b6c8-e2a32585e8fe")
-		)
-		(pin "8"
-			(uuid "5f20c432-0920-4ffc-b65a-8a094f8c6ebe")
-		)
-		(pin "7"
-			(uuid "4cf1db5f-8239-4522-b38b-1ff29a73f844")
-		)
-		(pin "2"
-			(uuid "f028e82e-068d-4f96-abd4-c98c82eb8dd9")
-		)
-		(pin "9"
-			(uuid "47ce3225-fd12-4253-b1f5-feabe935133d")
-		)
-		(instances
-			(project "KiCAD_Test3"
-				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 199.39 68.58 0)
 		(unit 1)
@@ -10998,148 +11116,6 @@
 			(project "KiCAD_Test3"
 				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tutorial_2_library:VERT_HDR_6_2.54mm")
-		(at 224.79 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6fa8197-b6ba-4954-90a6-618726e74371")
-		(property "Reference" "J1"
-			(at 221.742 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HDR_6_2.54"
-			(at 218.44 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical"
-			(at 223.52 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf"
-			(at 224.79 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER VERT 6POS 2.54MM"
-			(at 224.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "HDR"
-			(at 223.012 112.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Adam Tech"
-			(at 231.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "PH2-06-UA"
-			(at 218.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 Part Number" "2057-PH2-06-UA-ND"
-			(at 224.79 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 236.22 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2 Part Number" ""
-			(at 236.22 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9736ca97-e27a-41b3-b208-afe20ae32702")
-		)
-		(pin "1"
-			(uuid "0f50b820-0b11-46d6-8393-0082136b8775")
-		)
-		(pin "4"
-			(uuid "07fa3d25-ccdb-4a77-887f-96e4bd0fdd82")
-		)
-		(pin "2"
-			(uuid "a4266cd5-104a-4f93-a977-b1f85b4b2e1a")
-		)
-		(pin "5"
-			(uuid "3b7f92c1-717a-4029-b551-d5bf49014dc4")
-		)
-		(pin "6"
-			(uuid "faa4a12d-7eb3-4641-a64b-3867ca6ac737")
-		)
-		(instances
-			(project "KiCAD_Test3"
-				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -12001,277 +11977,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tutorial_2_library:ESP32-D0WDQ6")
-		(at 96.52 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce570f3d-7d02-4168-a07b-2cfae767b361")
-		(property "Reference" "U1"
-			(at 71.882 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESP32-D0WDQ6"
-			(at 105.41 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm"
-			(at 96.52 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf"
-			(at 97.79 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC RF TXRX+MCU BLE 48QFN"
-			(at 96.52 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "ESP32-D0WDQ6"
-			(at 71.628 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Espressif Systems"
-			(at 87.63 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "ESP32-D0WDQ6"
-			(at 96.52 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
-			(at 92.71 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1 Part Number" "1904-1004-1-ND"
-			(at 106.68 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2 Part Number" ""
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "21"
-			(uuid "ed079499-1db7-4000-9442-64dff9e9e95b")
-		)
-		(pin "36"
-			(uuid "90f2dbfe-d301-4b9e-bdb0-92e31d3e3ef2")
-		)
-		(pin "45"
-			(uuid "1366a5aa-b411-4512-a7c7-34d5b8ed356a")
-		)
-		(pin "49"
-			(uuid "628f2dd1-4a87-4b84-b698-e188606d5c27")
-		)
-		(pin "5"
-			(uuid "45ae48e4-104c-4797-861b-c6535a3add4f")
-		)
-		(pin "48"
-			(uuid "55702140-9ff0-4618-879d-7bb7da7e8490")
-		)
-		(pin "33"
-			(uuid "e1f8806c-9cb8-4fc1-874b-b8b24016f3f4")
-		)
-		(pin "32"
-			(uuid "c2a2dd35-dcc4-49bf-a810-32aa98d7ae42")
-		)
-		(pin "6"
-			(uuid "19413465-dd29-42e5-9703-d889ebab4d75")
-		)
-		(pin "7"
-			(uuid "00cd98a2-a402-44a7-be56-377127f4f03f")
-		)
-		(pin "40"
-			(uuid "b8c17a98-5df5-48c0-82c1-52c803089b66")
-		)
-		(pin "8"
-			(uuid "9dc79052-a21a-410f-89a3-56dcc8455e06")
-		)
-		(pin "46"
-			(uuid "ca248f38-d34f-4f19-aebc-32690953891b")
-		)
-		(pin "9"
-			(uuid "e33ba639-c56c-4f5e-ac05-c8eb03a47f82")
-		)
-		(pin "15"
-			(uuid "7cea3b15-a988-4211-bdee-992a6205fd04")
-		)
-		(pin "30"
-			(uuid "547c9456-96e7-45d1-bc79-7fedb631ce1f")
-		)
-		(pin "3"
-			(uuid "346fd2e2-8e01-40e3-80a5-0805bdd838f8")
-		)
-		(pin "20"
-			(uuid "4ca50b07-4d5c-4c84-a00c-e5044f9e005a")
-		)
-		(pin "47"
-			(uuid "1d6a885f-7a68-4153-9a7c-35cad8ed9852")
-		)
-		(pin "35"
-			(uuid "c3f9f25f-984c-4139-8200-cf647ba625e2")
-		)
-		(pin "4"
-			(uuid "5ab12b39-ba23-4e4a-9039-71d09fba0fe6")
-		)
-		(pin "27"
-			(uuid "ce7b8a4a-93ff-45d7-8fce-1dbc754df912")
-		)
-		(pin "31"
-			(uuid "e4355b3f-edf2-47ca-9863-46fb73ec4ccb")
-		)
-		(pin "34"
-			(uuid "f88e9182-78e1-4db1-89fb-c2fe5d604478")
-		)
-		(pin "10"
-			(uuid "ea3e7c6d-4efe-4604-af91-56f7439839b0")
-		)
-		(pin "24"
-			(uuid "6af49efc-6858-4734-97c5-0dfee6574225")
-		)
-		(pin "37"
-			(uuid "42f29c89-4126-471c-b046-521fe00efee5")
-		)
-		(pin "38"
-			(uuid "ea2efd21-da49-43b8-9f06-5691a567fc3a")
-		)
-		(pin "28"
-			(uuid "09826e70-7132-4f3f-8d6e-8a1fd653979a")
-		)
-		(pin "41"
-			(uuid "4bcd66a8-def6-4507-9f54-334889b30d39")
-		)
-		(pin "2"
-			(uuid "66a3d13e-f199-4757-8760-8218347b86cf")
-		)
-		(pin "43"
-			(uuid "63251fa2-38f0-439b-a80d-50b10e722512")
-		)
-		(pin "12"
-			(uuid "733c31ae-ae9d-4051-8be7-7ba28f2bbfe0")
-		)
-		(pin "19"
-			(uuid "94c56d1b-17a5-4f92-8a6b-aff690ccd391")
-		)
-		(pin "1"
-			(uuid "8fcdcf21-89c4-4299-bbfa-db2001cd4120")
-		)
-		(pin "22"
-			(uuid "82bd6515-260c-4338-943a-0bdda2b93cd8")
-		)
-		(pin "14"
-			(uuid "8c5eef9c-ff08-4dac-8b75-711deab886af")
-		)
-		(pin "16"
-			(uuid "510da9d3-9c4b-4f8e-9da5-24949924f554")
-		)
-		(pin "18"
-			(uuid "ef51c63c-86c5-4717-b069-789c31257baa")
-		)
-		(pin "23"
-			(uuid "a2e0e6a2-5060-4634-bde2-56bf0e26800d")
-		)
-		(pin "13"
-			(uuid "722b5d75-b468-496e-b1fb-d60d0a253247")
-		)
-		(pin "17"
-			(uuid "9efabb1f-a9ee-4270-8398-e5ee8c66e37b")
-		)
-		(pin "25"
-			(uuid "ce7764d6-7970-4018-895a-1cdfd78d450e")
-		)
-		(pin "26"
-			(uuid "ae19f59d-b54f-44a9-b156-2d362e2edeb8")
-		)
-		(pin "29"
-			(uuid "f8d4127a-916e-4dbe-ad97-a0b562ec2001")
-		)
-		(pin "39"
-			(uuid "99cc4ad4-0b62-4ee2-85e7-94ca4f39cc06")
-		)
-		(pin "42"
-			(uuid "abbca54e-cfc9-462b-a624-c2ff4f2a5267")
-		)
-		(pin "44"
-			(uuid "0d145f3c-12e5-4371-9e14-71e2188e9d77")
-		)
-		(pin "11"
-			(uuid "cfb89dbb-f60b-4bd6-86f7-df57b3a4e932")
-		)
-		(instances
-			(project "KiCAD_Test3"
-				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 262.89 121.92 0)
 		(unit 1)
@@ -12658,6 +12363,139 @@
 			(project "KiCAD_Test3"
 				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NAE_Connectors:Solder_Jumper_2_NC")
+		(at 209.55 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbd1b9cb-16cd-4bca-9e91-7715355723e5")
+		(property "Reference" "JP1"
+			(at 210.82 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "NC"
+			(at 210.82 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer Part Number" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Part Number" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Part Number" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15786587-e8c4-433f-94e4-26d805216ffa")
+		)
+		(pin "1"
+			(uuid "e683257a-5700-4575-a528-66e2cc9b7613")
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -13842,6 +13680,148 @@
 			(project "KiCAD_Test3"
 				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NAE_Connectors:VERT_HDR_2x3_2.54mm")
+		(at 224.79 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f54dda6b-3799-43bd-b694-e5fc4d919354")
+		(property "Reference" "J1"
+			(at 221.996 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HDR_6_2.54"
+			(at 218.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf"
+			(at 224.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 6POS 2.54MM"
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "HDR"
+			(at 222.758 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Adam Tech"
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PH2-06-UA"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 229.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Part Number" "2057-PH2-06-UA-ND"
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 236.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2 Part Number" ""
+			(at 236.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e539df21-efb0-444e-9352-46cb96eb8d8a")
+		)
+		(pin "2"
+			(uuid "29ac27b4-854c-48bc-8d41-85f1bd4da0e2")
+		)
+		(pin "5"
+			(uuid "aaf7a399-30f4-48c5-a90d-9ba371ba3e09")
+		)
+		(pin "1"
+			(uuid "403872fd-f502-4b79-93f0-234c3ecc20a5")
+		)
+		(pin "4"
+			(uuid "3eb445e1-267d-44ff-9223-e6a5d745897c")
+		)
+		(pin "6"
+			(uuid "2bf69f35-cced-4cf7-abba-e08facd19272")
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036/5b175686-7035-4ca2-abe3-d2e3eb506fce"
+					(reference "J1")
 					(unit 1)
 				)
 			)
